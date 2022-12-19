@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Page</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<body>
+  <h1>Welcome to Our Game</h1>
+  <p>Please enter the number of players and their names below:</p >
+  
+  <form action="/play">
+      Number of players: <select type="number" name="numPlayers">
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+      <br>
+      When choosing only one player, the computer will play as Player 2.
+      <br>
+      Player 1: <input type="text" name="player1"></input>
+      <br>
+      Player 2: <input type="text" name="player2"></input>
+      <input type="submit" value="Let's Go"></input>
+  </form>
+  
+  
+  
+</body>
+</html>
